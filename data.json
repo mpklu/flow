@@ -1,32 +1,37 @@
 [
     {
-        "type": "start",
-        "label": "Start",
-        "cx": 50,
-        "cy": 50
+        "step": "Initialize",
+        "order": 1,
+        "description": "Set low to 0 and high to the length of the list minus one."
     },
     {
-        "type": "process",
-        "label": "Process",
-        "cx": 50,
-        "cy": 150
+        "step": "Outer Loop",
+        "order": 2,
+        "description": "Iterate through the list from the second element to the last element."
     },
     {
-        "type": "decision",
-        "label": "Decision",
-        "cx": 50,
-        "cy": 250
+        "step": "Set Key",
+        "order": 3,
+        "description": "Set the current element as the key."
     },
     {
-        "type": "process",
-        "label": "Process",
-        "cx": 50,
-        "cy": 350
+        "step": "Binary Search",
+        "order": 4,
+        "description": "Find the correct position for the key using binary search."
     },
     {
-        "type": "end",
-        "label": "End",
-        "cx": 50,
-        "cy": 450
+        "step": "Shift Elements",
+        "order": 5,
+        "description": "Shift elements in the sorted portion to make space for the key."
+    },
+    {
+        "step": "Insert Key",
+        "order": 6,
+        "description": "Insert the key at the found position."
+    },
+    {
+        "step": "Repeat",
+        "order": 7,
+        "description": "Continue until the entire list is sorted."
     }
 ]
