@@ -1,0 +1,32 @@
+[
+    {
+        "step": "Step 1",
+        "order": 1,
+        "description": "Description for step 1"
+    },
+    {
+        "step": "Step 2",
+        "order": 2,
+        "description": "Description for step 2"
+    },
+    {
+        "step": "Step 3",
+        "order": 3,
+        "description": "Description for step 3"
+    },
+    {
+        "step": "Step 4",
+        "order": 4,
+        "description": "Description for step 4"
+    },
+    {
+        "step": "Step 5",
+        "order": 5,
+        "description": "Description for step 5"
+    },
+    {
+        "step": "Step 6",
+        "order": 6,
+        "description": "Description for step 6"
+    }
+]
